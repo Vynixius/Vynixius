@@ -1,0 +1,581 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local BabelFaga = Instance.new("ScreenGui")
+local Frame = Instance.new("ImageLabel")
+local OnHellish = Instance.new("TextButton")
+local On_Roundify_12px = Instance.new("ImageLabel")
+local OffHellish = Instance.new("TextButton")
+local Off_Roundify_12px = Instance.new("ImageLabel")
+local Title = Instance.new("TextLabel")
+local TextLabel_Roundify_12px = Instance.new("ImageLabel")
+local HellishEgg = Instance.new("TextLabel")
+local TextLabel_Roundify_12px_2 = Instance.new("ImageLabel")
+local Bubble = Instance.new("TextLabel")
+local TextLabel_Roundify_12px_3 = Instance.new("ImageLabel")
+local OffBubble = Instance.new("TextButton")
+local Off_Roundify_12px_2 = Instance.new("ImageLabel")
+local OnBubble = Instance.new("TextButton")
+local On_Roundify_12px_2 = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local OnWisp = Instance.new("TextButton")
+local On_Roundify_12px_3 = Instance.new("ImageLabel")
+local OffWisp = Instance.new("TextButton")
+local Off_Roundify_12px_3 = Instance.new("ImageLabel")
+local OpenWispEgg = Instance.new("TextLabel")
+local TextLabel_Roundify_12px_4 = Instance.new("ImageLabel")
+local OpenWispEgg_2 = Instance.new("TextLabel")
+local TextLabel_Roundify_12px_5 = Instance.new("ImageLabel")
+local OnGhost = Instance.new("TextButton")
+local On_Roundify_12px_4 = Instance.new("ImageLabel")
+local OffGhost = Instance.new("TextButton")
+local Off_Roundify_12px_4 = Instance.new("ImageLabel")
+
+--Properties:
+
+BabelFaga.Name = "BabelFaga"
+BabelFaga.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Name = "Frame"
+Frame.Parent = BabelFaga
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.Position = UDim2.new(0.803357303, 0, 0.197895348, 0)
+Frame.Size = UDim2.new(0, 296, 0, 244)
+Frame.Image = "rbxassetid://3570695787"
+Frame.ImageColor3 = Color3.fromRGB(48, 48, 48)
+Frame.ScaleType = Enum.ScaleType.Slice
+Frame.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame.SliceScale = 0.120
+Frame.Active = true
+Frame.Draggable = true
+
+OnHellish.Name = "On Hellish"
+OnHellish.Parent = Frame
+OnHellish.BackgroundColor3 = Color3.fromRGB(101, 255, 74)
+OnHellish.BackgroundTransparency = 1.000
+OnHellish.BorderSizePixel = 0
+OnHellish.Position = UDim2.new(0.520270288, 0, 0.0961482599, 0)
+OnHellish.Size = UDim2.new(0, 55, 0, 42)
+OnHellish.ZIndex = 2
+OnHellish.Font = Enum.Font.SourceSansBold
+OnHellish.Text = "ON"
+OnHellish.TextColor3 = Color3.fromRGB(255, 255, 255)
+OnHellish.TextSize = 44.000
+OnHellish.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/YWZUUDGG", true))()
+end)
+
+On_Roundify_12px.Name = "On_Roundify_12px"
+On_Roundify_12px.Parent = OnHellish
+On_Roundify_12px.Active = true
+On_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+On_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+On_Roundify_12px.BackgroundTransparency = 1.000
+On_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+On_Roundify_12px.Selectable = true
+On_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+On_Roundify_12px.Image = "rbxassetid://3570695787"
+On_Roundify_12px.ImageColor3 = Color3.fromRGB(101, 255, 74)
+On_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+On_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+On_Roundify_12px.SliceScale = 0.120
+
+OffHellish.Name = "Off Hellish"
+OffHellish.Parent = Frame
+OffHellish.BackgroundColor3 = Color3.fromRGB(255, 69, 72)
+OffHellish.BackgroundTransparency = 1.000
+OffHellish.BorderSizePixel = 0
+OffHellish.Position = UDim2.new(0.756756783, 0, 0.0961482599, 0)
+OffHellish.Size = UDim2.new(0, 55, 0, 42)
+OffHellish.ZIndex = 2
+OffHellish.Font = Enum.Font.SourceSansBold
+OffHellish.Text = "OFF"
+OffHellish.TextColor3 = Color3.fromRGB(255, 255, 255)
+OffHellish.TextSize = 44.000
+OffHellish.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/6V42b40k", true))()
+end)
+
+Off_Roundify_12px.Name = "Off_Roundify_12px"
+Off_Roundify_12px.Parent = OffHellish
+Off_Roundify_12px.Active = true
+Off_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+Off_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Off_Roundify_12px.BackgroundTransparency = 1.000
+Off_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+Off_Roundify_12px.Selectable = true
+Off_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+Off_Roundify_12px.Image = "rbxassetid://3570695787"
+Off_Roundify_12px.ImageColor3 = Color3.fromRGB(255, 69, 72)
+Off_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+Off_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+Off_Roundify_12px.SliceScale = 0.120
+
+Title.Name = "Title"
+Title.Parent = Frame
+Title.BackgroundColor3 = Color3.fromRGB(80, 241, 255)
+Title.BackgroundTransparency = 1.000
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0.162162155, 0, -0.287139118, 0)
+Title.Size = UDim2.new(0, 200, 0, 50)
+Title.ZIndex = 2
+Title.Font = Enum.Font.PatrickHand
+Title.Text = "Bubble Fucker"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 46.000
+
+TextLabel_Roundify_12px.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px.Parent = Title
+TextLabel_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px.ImageColor3 = Color3.fromRGB(235, 79, 255)
+TextLabel_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+TextLabel_Roundify_12px.SliceScale = 0.120
+
+HellishEgg.Name = "Hellish Egg"
+HellishEgg.Parent = Frame
+HellishEgg.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HellishEgg.BackgroundTransparency = 1.000
+HellishEgg.BorderSizePixel = 0
+HellishEgg.Position = UDim2.new(0.0337837823, 0, 0.094262287, 0)
+HellishEgg.Size = UDim2.new(0, 137, 0, 43)
+HellishEgg.ZIndex = 2
+HellishEgg.Font = Enum.Font.SourceSansBold
+HellishEgg.Text = "Open Hellish Egg"
+HellishEgg.TextColor3 = Color3.fromRGB(255, 255, 255)
+HellishEgg.TextSize = 20.000
+
+TextLabel_Roundify_12px_2.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px_2.Parent = HellishEgg
+TextLabel_Roundify_12px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px_2.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px_2.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px_2.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px_2.ImageColor3 = Color3.fromRGB(150, 74, 255)
+TextLabel_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+TextLabel_Roundify_12px_2.SliceScale = 0.120
+
+Bubble.Name = "Bubble"
+Bubble.Parent = Frame
+Bubble.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Bubble.BackgroundTransparency = 1.000
+Bubble.BorderSizePixel = 0
+Bubble.Position = UDim2.new(0.0337837823, 0, 0.299180329, 0)
+Bubble.Size = UDim2.new(0, 137, 0, 43)
+Bubble.ZIndex = 2
+Bubble.Font = Enum.Font.SourceSansBold
+Bubble.Text = "Bubble"
+Bubble.TextColor3 = Color3.fromRGB(255, 255, 255)
+Bubble.TextSize = 20.000
+
+TextLabel_Roundify_12px_3.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px_3.Parent = Bubble
+TextLabel_Roundify_12px_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px_3.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px_3.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px_3.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px_3.ImageColor3 = Color3.fromRGB(150, 74, 255)
+TextLabel_Roundify_12px_3.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px_3.SliceCenter = Rect.new(100, 100, 100, 100)
+TextLabel_Roundify_12px_3.SliceScale = 0.120
+
+OffBubble.Name = "Off Bubble"
+OffBubble.Parent = Frame
+OffBubble.BackgroundColor3 = Color3.fromRGB(255, 69, 72)
+OffBubble.BackgroundTransparency = 1.000
+OffBubble.BorderSizePixel = 0
+OffBubble.Position = UDim2.new(0.756756783, 0, 0.301066279, 0)
+OffBubble.Size = UDim2.new(0, 55, 0, 42)
+OffBubble.ZIndex = 2
+OffBubble.Font = Enum.Font.SourceSansBold
+OffBubble.Text = "OFF"
+OffBubble.TextColor3 = Color3.fromRGB(255, 255, 255)
+OffBubble.TextSize = 44.000
+OffBubble.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/CYCE2PJ4", true))()
+end)
+
+Off_Roundify_12px_2.Name = "Off_Roundify_12px"
+Off_Roundify_12px_2.Parent = OffBubble
+Off_Roundify_12px_2.Active = true
+Off_Roundify_12px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Off_Roundify_12px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Off_Roundify_12px_2.BackgroundTransparency = 1.000
+Off_Roundify_12px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+Off_Roundify_12px_2.Selectable = true
+Off_Roundify_12px_2.Size = UDim2.new(1, 0, 1, 0)
+Off_Roundify_12px_2.Image = "rbxassetid://3570695787"
+Off_Roundify_12px_2.ImageColor3 = Color3.fromRGB(255, 69, 72)
+Off_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
+Off_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+Off_Roundify_12px_2.SliceScale = 0.120
+
+OnBubble.Name = "On Bubble"
+OnBubble.Parent = Frame
+OnBubble.BackgroundColor3 = Color3.fromRGB(101, 255, 74)
+OnBubble.BackgroundTransparency = 1.000
+OnBubble.BorderSizePixel = 0
+OnBubble.Position = UDim2.new(0.520270288, 0, 0.301066279, 0)
+OnBubble.Size = UDim2.new(0, 55, 0, 42)
+OnBubble.ZIndex = 2
+OnBubble.Font = Enum.Font.SourceSansBold
+OnBubble.Text = "ON"
+OnBubble.TextColor3 = Color3.fromRGB(255, 255, 255)
+OnBubble.TextSize = 44.000
+OnBubble.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/nJLa9icM", true))()
+end)
+
+On_Roundify_12px_2.Name = "On_Roundify_12px"
+On_Roundify_12px_2.Parent = OnBubble
+On_Roundify_12px_2.Active = true
+On_Roundify_12px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+On_Roundify_12px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+On_Roundify_12px_2.BackgroundTransparency = 1.000
+On_Roundify_12px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+On_Roundify_12px_2.Selectable = true
+On_Roundify_12px_2.Size = UDim2.new(1, 0, 1, 0)
+On_Roundify_12px_2.Image = "rbxassetid://3570695787"
+On_Roundify_12px_2.ImageColor3 = Color3.fromRGB(101, 255, 74)
+On_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
+On_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+On_Roundify_12px_2.SliceScale = 0.120
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.445945919, 0, 0.844262302, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "Made By Sum Nigga"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+OnWisp.Name = "On Wisp"
+OnWisp.Parent = Frame
+OnWisp.BackgroundColor3 = Color3.fromRGB(101, 255, 74)
+OnWisp.BackgroundTransparency = 1.000
+OnWisp.BorderSizePixel = 0
+OnWisp.Position = UDim2.new(0.520270288, 0, 0.505984306, 0)
+OnWisp.Size = UDim2.new(0, 55, 0, 42)
+OnWisp.ZIndex = 2
+OnWisp.Font = Enum.Font.SourceSansBold
+OnWisp.Text = "ON"
+OnWisp.TextColor3 = Color3.fromRGB(255, 255, 255)
+OnWisp.TextSize = 44.000
+OnWisp.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/syEdhsF4", true))()
+end)
+
+
+On_Roundify_12px_3.Name = "On_Roundify_12px"
+On_Roundify_12px_3.Parent = OnWisp
+On_Roundify_12px_3.Active = true
+On_Roundify_12px_3.AnchorPoint = Vector2.new(0.5, 0.5)
+On_Roundify_12px_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+On_Roundify_12px_3.BackgroundTransparency = 1.000
+On_Roundify_12px_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+On_Roundify_12px_3.Selectable = true
+On_Roundify_12px_3.Size = UDim2.new(1, 0, 1, 0)
+On_Roundify_12px_3.Image = "rbxassetid://3570695787"
+On_Roundify_12px_3.ImageColor3 = Color3.fromRGB(101, 255, 74)
+On_Roundify_12px_3.ScaleType = Enum.ScaleType.Slice
+On_Roundify_12px_3.SliceCenter = Rect.new(100, 100, 100, 100)
+On_Roundify_12px_3.SliceScale = 0.120
+
+OffWisp.Name = "Off Wisp"
+OffWisp.Parent = Frame
+OffWisp.BackgroundColor3 = Color3.fromRGB(255, 69, 72)
+OffWisp.BackgroundTransparency = 1.000
+OffWisp.BorderSizePixel = 0
+OffWisp.Position = UDim2.new(0.756756783, 0, 0.505984306, 0)
+OffWisp.Size = UDim2.new(0, 55, 0, 42)
+OffWisp.ZIndex = 2
+OffWisp.Font = Enum.Font.SourceSansBold
+OffWisp.Text = "OFF"
+OffWisp.TextColor3 = Color3.fromRGB(255, 255, 255)
+OffWisp.TextSize = 44.000
+OffWisp.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/qSx7ibnN", true))()
+end)
+
+Off_Roundify_12px_3.Name = "Off_Roundify_12px"
+Off_Roundify_12px_3.Parent = OffWisp
+Off_Roundify_12px_3.Active = true
+Off_Roundify_12px_3.AnchorPoint = Vector2.new(0.5, 0.5)
+Off_Roundify_12px_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Off_Roundify_12px_3.BackgroundTransparency = 1.000
+Off_Roundify_12px_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+Off_Roundify_12px_3.Selectable = true
+Off_Roundify_12px_3.Size = UDim2.new(1, 0, 1, 0)
+Off_Roundify_12px_3.Image = "rbxassetid://3570695787"
+Off_Roundify_12px_3.ImageColor3 = Color3.fromRGB(255, 69, 72)
+Off_Roundify_12px_3.ScaleType = Enum.ScaleType.Slice
+Off_Roundify_12px_3.SliceCenter = Rect.new(100, 100, 100, 100)
+Off_Roundify_12px_3.SliceScale = 0.120
+
+OpenWispEgg.Name = "Open Wisp Egg"
+OpenWispEgg.Parent = Frame
+OpenWispEgg.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OpenWispEgg.BackgroundTransparency = 1.000
+OpenWispEgg.BorderSizePixel = 0
+OpenWispEgg.Position = UDim2.new(0.0337837823, 0, 0.504098356, 0)
+OpenWispEgg.Size = UDim2.new(0, 137, 0, 43)
+OpenWispEgg.ZIndex = 2
+OpenWispEgg.Font = Enum.Font.SourceSansBold
+OpenWispEgg.Text = "Open Wisp Egg"
+OpenWispEgg.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenWispEgg.TextSize = 20.000
+
+TextLabel_Roundify_12px_4.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px_4.Parent = OpenWispEgg
+TextLabel_Roundify_12px_4.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px_4.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px_4.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px_4.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px_4.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px_4.ImageColor3 = Color3.fromRGB(150, 74, 255)
+TextLabel_Roundify_12px_4.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px_4.SliceCenter = Rect.new(100, 100, 100, 100)
+TextLabel_Roundify_12px_4.SliceScale = 0.120
+
+OpenWispEgg_2.Name = "Open Wisp Egg"
+OpenWispEgg_2.Parent = Frame
+OpenWispEgg_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OpenWispEgg_2.BackgroundTransparency = 1.000
+OpenWispEgg_2.BorderSizePixel = 0
+OpenWispEgg_2.Position = UDim2.new(0.0337837823, 0, 0.72131145, 0)
+OpenWispEgg_2.Size = UDim2.new(0, 137, 0, 43)
+OpenWispEgg_2.ZIndex = 2
+OpenWispEgg_2.Font = Enum.Font.SourceSansBold
+OpenWispEgg_2.Text = "Open Ghost Egg"
+OpenWispEgg_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenWispEgg_2.TextSize = 20.000
+
+TextLabel_Roundify_12px_5.Name = "TextLabel_Roundify_12px"
+TextLabel_Roundify_12px_5.Parent = OpenWispEgg_2
+TextLabel_Roundify_12px_5.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_Roundify_12px_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_Roundify_12px_5.BackgroundTransparency = 1.000
+TextLabel_Roundify_12px_5.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_Roundify_12px_5.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_Roundify_12px_5.Image = "rbxassetid://3570695787"
+TextLabel_Roundify_12px_5.ImageColor3 = Color3.fromRGB(150, 74, 255)
+TextLabel_Roundify_12px_5.ScaleType = Enum.ScaleType.Slice
+TextLabel_Roundify_12px_5.SliceCenter = Rect.new(100, 100, 100, 100)
+TextLabel_Roundify_12px_5.SliceScale = 0.120
+
+OnGhost.Name = "On Ghost"
+OnGhost.Parent = Frame
+OnGhost.BackgroundColor3 = Color3.fromRGB(101, 255, 74)
+OnGhost.BackgroundTransparency = 1.000
+OnGhost.BorderSizePixel = 0
+OnGhost.Position = UDim2.new(0.520270288, 0, 0.719099045, 0)
+OnGhost.Size = UDim2.new(0, 55, 0, 42)
+OnGhost.ZIndex = 2
+OnGhost.Font = Enum.Font.SourceSansBold
+OnGhost.Text = "ON"
+OnGhost.TextColor3 = Color3.fromRGB(255, 255, 255)
+OnGhost.TextSize = 44.000
+OnGhost.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/UTkNJmZK", true))()
+end)
+
+On_Roundify_12px_4.Name = "On_Roundify_12px"
+On_Roundify_12px_4.Parent = OnGhost
+On_Roundify_12px_4.Active = true
+On_Roundify_12px_4.AnchorPoint = Vector2.new(0.5, 0.5)
+On_Roundify_12px_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+On_Roundify_12px_4.BackgroundTransparency = 1.000
+On_Roundify_12px_4.Position = UDim2.new(0.5, 0, 0.5, 0)
+On_Roundify_12px_4.Selectable = true
+On_Roundify_12px_4.Size = UDim2.new(1, 0, 1, 0)
+On_Roundify_12px_4.Image = "rbxassetid://3570695787"
+On_Roundify_12px_4.ImageColor3 = Color3.fromRGB(101, 255, 74)
+On_Roundify_12px_4.ScaleType = Enum.ScaleType.Slice
+On_Roundify_12px_4.SliceCenter = Rect.new(100, 100, 100, 100)
+On_Roundify_12px_4.SliceScale = 0.120
+
+OffGhost.Name = "Off Ghost"
+OffGhost.Parent = Frame
+OffGhost.BackgroundColor3 = Color3.fromRGB(255, 69, 72)
+OffGhost.BackgroundTransparency = 1.000
+OffGhost.BorderSizePixel = 0
+OffGhost.Position = UDim2.new(0.756756783, 0, 0.723197401, 0)
+OffGhost.Size = UDim2.new(0, 55, 0, 42)
+OffGhost.ZIndex = 2
+OffGhost.Font = Enum.Font.SourceSansBold
+OffGhost.Text = "OFF"
+OffGhost.TextColor3 = Color3.fromRGB(255, 255, 255)
+OffGhost.TextSize = 44.000
+OnGhost.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/TukYUQc8", true))()
+end)
+
+Off_Roundify_12px_4.Name = "Off_Roundify_12px"
+Off_Roundify_12px_4.Parent = OffGhost
+Off_Roundify_12px_4.Active = true
+Off_Roundify_12px_4.AnchorPoint = Vector2.new(0.5, 0.5)
+Off_Roundify_12px_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Off_Roundify_12px_4.BackgroundTransparency = 1.000
+Off_Roundify_12px_4.Position = UDim2.new(0.5, 0, 0.5, 0)
+Off_Roundify_12px_4.Selectable = true
+Off_Roundify_12px_4.Size = UDim2.new(1, 0, 1, 0)
+Off_Roundify_12px_4.Image = "rbxassetid://3570695787"
+Off_Roundify_12px_4.ImageColor3 = Color3.fromRGB(255, 69, 72)
+Off_Roundify_12px_4.ScaleType = Enum.ScaleType.Slice
+Off_Roundify_12px_4.SliceCenter = Rect.new(100, 100, 100, 100)
+Off_Roundify_12px_4.SliceScale = 0.120
+
+-- Scripts:
+
+local function GVLBEL_fake_script() -- OnHellish.LocalScript 
+	local script = Instance.new('LocalScript', OnHellish)
+
+	_G.loop = true
+	while _G.loop do
+		local args = {
+			[1] = "PurchaseEgg",
+			[2] = "Hellish Egg",
+			[3] = "Multi"
+		}
+	
+		game:GetService("ReplicatedStorage").NetworkRemoteEvent:FireServer(unpack(args))
+	
+	
+		wait()
+	end
+end
+coroutine.wrap(GVLBEL_fake_script)()
+local function JSFLCK_fake_script() -- OffHellish.LocalScript 
+	local script = Instance.new('LocalScript', OffHellish)
+
+	_G.loop = false
+	while _G.loop do
+		local args = {
+			[1] = "PurchaseEgg",
+			[2] = "Hellish Egg",
+			[3] = "Multi"
+		}
+	
+		game:GetService("ReplicatedStorage").NetworkRemoteEvent:FireServer(unpack(args))
+	
+	
+		wait()
+	end
+end
+coroutine.wrap(JSFLCK_fake_script)()
+local function CAKTB_fake_script() -- OffBubble.LocalScript 
+	local script = Instance.new('LocalScript', OffBubble)
+
+	_G.loop = false
+	while _G.loop do
+		local args = {
+			[1] = "BlowBubble"
+		}
+	
+		game:GetService("ReplicatedStorage").NetworkRemoteEvent:FireServer(unpack(args))
+		wait()
+	end
+end
+coroutine.wrap(CAKTB_fake_script)()
+local function PYUR_fake_script() -- OnBubble.LocalScript 
+	local script = Instance.new('LocalScript', OnBubble)
+
+	_G.loop = true
+	while _G.loop do
+		local args = {
+			[1] = "BlowBubble"
+		}
+	
+		game:GetService("ReplicatedStorage").NetworkRemoteEvent:FireServer(unpack(args))
+		wait()
+	end
+end
+coroutine.wrap(PYUR_fake_script)()
+local function LASC_fake_script() -- OnWisp.LocalScript 
+	local script = Instance.new('LocalScript', OnWisp)
+
+	_G.loop = true
+	while _G.loop do
+		local args = {
+			[1] = "PurchaseEgg",
+			[2] = "Wisp Egg",
+			[3] = "Multi"
+		}
+	
+		game:GetService("ReplicatedStorage").NetworkRemoteEvent:FireServer(unpack(args))
+	
+	
+		wait()
+	end
+end
+coroutine.wrap(LASC_fake_script)()
+local function ZHCXLN_fake_script() -- OffWisp.LocalScript 
+	local script = Instance.new('LocalScript', OffWisp)
+
+	_G.loop = false
+	while _G.loop do
+		local args = {
+			[1] = "PurchaseEgg",
+			[2] = "Wisp Egg",
+			[3] = "Multi"
+		}
+	
+		game:GetService("ReplicatedStorage").NetworkRemoteEvent:FireServer(unpack(args))
+	
+	
+		wait()
+	end
+end
+coroutine.wrap(ZHCXLN_fake_script)()
+local function PUTAAMG_fake_script() -- OnGhost.LocalScript 
+	local script = Instance.new('LocalScript', OnGhost)
+
+	_G.loop = true
+	while _G.loop do
+		local args = {
+			[1] = "PurchaseEgg",
+			[2] = "Ghost Egg",
+			[3] = "Multi"
+		}
+	
+		game:GetService("ReplicatedStorage").NetworkRemoteEvent:FireServer(unpack(args))
+	
+	
+		wait()
+	end
+end
+coroutine.wrap(PUTAAMG_fake_script)()
+local function KUEYZPF_fake_script() -- OffGhost.LocalScript 
+	local script = Instance.new('LocalScript', OffGhost)
+
+	_G.loop = false
+	while _G.loop do
+		local args = {
+			[1] = "PurchaseEgg",
+			[2] = "Ghost Egg",
+			[3] = "Multi"
+		}
+	
+		game:GetService("ReplicatedStorage").NetworkRemoteEvent:FireServer(unpack(args))
+	
+	
+		wait()
+	end
+end
+coroutine.wrap(KUEYZPF_fake_script)()
